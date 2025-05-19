@@ -52,8 +52,8 @@ B_neto[is.na(B_neto)] <- 0
 
 ```
 
-## Identificar prioridades a través de sobreposición de prioridades vs costos
-#Cómo conservar
+# Identificar prioridades a través de sobreposición de prioridades vs costos
+## Cómo conservar
 
 En un paisaje de transformación alto como lo evidenciado en los últimos años en los Andes colombianos (Armenteras et al.,2011), se propone en esta aproximación no solo identificar áreas para la expansión de áreas protegidas, sino que  teniendo en cuenta las amenazas directas a la especie principalmente la pérdida de hábitat y las interacciones negativas humano-Oso andino (Kattan et al., 2008; Parra-Romero et al., 2019) y la alta capacidad de movilidad (Vera-Vargas et al.,2021), se plantea involucrar otro tipo de manejos de áreas que involucren territorios con intervención humana media-alta con el fin de disminuir los conflictos por el uso del territorio y optimizar de mejor manera los recursos técnicos y financieros (Hanson et al., 2024).
  
