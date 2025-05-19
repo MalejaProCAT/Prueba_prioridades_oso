@@ -106,7 +106,7 @@ plot(solucion_1, main = "Solución conservación 15%")
 #writeRaster(solucion_1, "prioridad_manejo.tif", overwrite=TRUE)+
 
 # Definir la solución con base en las metas del 30% al área mínima que quiero conservar basado en la meta Aichi (CBD,2010)
-## Comparación si se define la meta Kumming Montereal (30%) (CBD, 2022)
+## Comparación si se define la meta Kunming-Montreal Global Biodiversity Framework  (30%) (CBD, 2022)
 
 candidatas <- which(values(P1) %in% c(1)) ## Selecciono sólo las áreas donde es más eficiente hacer áreas protegidas porque tiene IHH # Extraer celdas candidatas (AP) natural o baja
 
@@ -180,7 +180,7 @@ values(solucion_15_BN)[seleccionadas] <- 1
 plot(solucion_15_BN, main = "Solución conservación 15% costo=BNT")
 #writeRaster(solucion_1, "prioridad_manejo.tif", overwrite=TRUE)+
 
-### Comparación si se define la meta Kumming Montereal (30%) (CBD, 2022)
+### Comparación si se define la meta Kunming-Montreal Global Biodiversity Framework  (30%) (CBD, 2022)
  
 ## Definir la solución con base en las metas del 30% al área mínima que quiero conservar basado en la meta Aichi (CBD,2010)
 # Extraer celdas candidatas (AP)
